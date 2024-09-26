@@ -1,0 +1,155 @@
+body{
+    margin:0%;
+}
+
+.contenedor{
+    background-color: rgb(97, 97, 247);
+    display:grid;
+    height: 95px;
+}
+
+.cont1{
+    background-color: rgb(233, 14, 51); 
+    display: grid;
+    grid-template-rows: 10px;
+    height: 180px;
+    gap: 150px;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.cont1:hover{
+    font-size: 10px;
+
+}
+
+p{
+    animation: 5s;
+    animation-name: cont11;
+}
+
+@keyframes cont11{
+    from{
+        transform: rotate(50grad);
+    }
+    to{
+
+    }
+}
+
+.contp{
+    display: grid;
+    grid-template-rows: 120px;
+    height: 320px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.cont:hover{
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+
+.cont3{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 180px;
+    animation: 4s ease-in 0s infinite beat;
+    animation-name: con3;
+    color: aliceblue;
+    text-align: center;
+    font-size: 300px;
+
+}
+
+.cont3 p:hover{
+    transform: rotate(90grad);
+
+}
+
+
+@keyframes con3{
+    from{
+        color: rgb(0, 195, 255);
+        font-size: 30px;
+    }
+    to{
+        color: rgb(15, 15, 247);
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+.cont4{
+    background-color:rgb(127, 231, 127);
+    height: 150px;
+    animation-duration: 6s ease-in 0s infinite beat;
+    animation-name: cont4;
+}
+
+.cont5{ 
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 250px;
+    gap: 15px;
+}
+
+.cont6{
+    background-color: grey;
+    width: 256px;
+    color: aliceblue;
+    text-align: center;
+    animation: 3s ease-in 0s infinite beat;
+    animation-name: cont6;
+}
+
+
+.cont6:hover{
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(69, 208, 243);
+    padding-top: 50px;
+}
+.cont7{
+    display: grid;
+    grid-template-rows: 10px;
+    gap: 160px;
+}
+
+.cont8{
+    background-color: rgb(247, 120, 82);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 150px;
+    animation: 3s ease-in 0s infinite beat;
+    animation-name: con8;
+    font-size: 50px;
+}
+
+@keyframes con8{
+    from{
+        text-align: right;
+        color: rgb(0, 136, 255);
+      
+
+    }
+
+    to{
+        text-align: left;
+        color: rgb(240, 0, 0);
+    }
+    
+}
+
+
